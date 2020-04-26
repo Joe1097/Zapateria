@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zapateria</title>
+        <script text/javascript src=""></script>
+        <link rel="stylesheet" href="../estilos/estilos_index.css">
+    </head>
+    <body>
+        <form action="../funcionalidad/nuevo_usuario.php" method="post" onsubmit="return vacios2() && iguales()">
+              <h1>Crear cuenta nueva</h1>
+              <input type="text" placeholder="Usuario" id="usuario" name="usuario">
+              <input type="password" placeholder="Contraseña" id="contrasena" name="contrasena">
+              <input type="password" placeholder="Repetir contraseña" id="rcontrasena" name="rcontrasena">
+              <select name="tipo" id="tipo">
+                        <option hidden> Tipo</option>
+                        <option value="administrador">Administrador</option>
+                        <option value="normal">Normal</option>
+                        <option value="gerente">Gerente</option>
+                    </select>
+              <input type="submit" value="Crear usuario">
+        </form>
+    </body>
+</html>

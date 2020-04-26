@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url('../imagenes/rain.jpg') no-repeat;
+    display: flex;
+    min-height: 100vh;
+}
+
+form{
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+    width: 50%;
+    min-width: 400px;
+    background: white; opacity: 0.8;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 10px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+a{
+    display: inline-block;
+    background: rgb(230, 230, 230);
+    width: 100%;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    font-weight: normal;
+    background: #909090;
+    border: none;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+input[type="submit"]{
+    color: white;
+    border: none;
+    background: #909090;
+    font-weight: bold;
+}
+
+input, a, select{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 18px;
+
+    transition-delay: .0s;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+input[type="submit"]:hover, a:hover{
+    background: #ff3d9e;
+    color: white;
+}

@@ -1,0 +1,117 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:url('../imagenes/rain.jpg') no-repeat;
+	font-family:"Times New Roman";
+}
+
+header{
+    background: #DEDEDE;
+	height:100px;
+	width:100%;
+    margin-bottom:200px;
+    box-shadow: 0px 0px 25px black;
+    display: flex;
+}
+
+.panel1, .panel2, .panel4, .panel5{
+    flex: 1;
+    line-height: 100px;
+}
+
+img{
+    width: 80px;
+    margin: 10px 20px;
+    float: right;
+}
+
+.panel3{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.panel3 img{
+    display: block;
+    width: 157px;
+    margin: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color:black;
+}
+
+ul{
+    height:50px;
+    display: flex;
+    list-style:none;
+    justify-content:center;
+    width: 100%;
+    font-family:Arial;
+}
+
+ul li{
+    height: 100%;
+    line-height: 50px; /* alinea el texto verticalmente */
+    background: white;
+    opacity: 0.75;
+    margin: 0px 1px;
+}
+
+.lis{
+    flex: 1;
+}
+
+.lis_ex{
+    flex:2;
+}
+
+@media(max-width: 1280px){
+    .lis_ex{
+        flex:1;
+    }
+}
+
+ul li a{
+    padding: 0px 10px;
+    display: block;
+
+    transition-delay: .0s;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+ul li a:hover{
+	background:#ff3d9e;
+    color:white;
+    font-weight: bold;
+}
+
+ul li ul{
+    display: inline-block;
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;	
+}
+
+
