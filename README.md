@@ -1,5 +1,5 @@
 # Zapateria
-Este es nuestro proyecto final para la materia Programación Web de 7mo semestre (Diciembre 2018)
+Este es nuestro proyecto final para la materia Programación Web de 7mo semestre (Diciembre 2018).
 
 No posee una funcionalidad completa. Por ejemplo, el módulo de reportes, tiene tablas que no muestran ninguna información.
 
