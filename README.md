@@ -11,4 +11,4 @@ Las especificaciones que se pedían para este proyecto final están en el archiv
 - Colocar el proyecto en la carpeta htdocs.
 - Crear una base de datos llamada zapateria con el formato utf8_unicode_ci.
 - Importar el archivo bd/zapateria.sql para agregar las tablas a la base de datos.
-- Ir a la url http://localhost/Zapateria/estructura/Index.html
+- Ir a la url http://localhost/Zapateria-master/Zapateria-master/estructura/Index.html
